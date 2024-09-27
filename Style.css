@@ -1,0 +1,72 @@
+/* Styling for the wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f567b5;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* Styling for the question text */
+.question {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the GIF */
+.gif {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Button container to organize buttons */
+.button-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for the Yes button */
+.yes-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-right: -150px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yes-btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the No button */
+.no-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.no-btn:hover {
+    background-color: #e53935;
+}
+
+/* Add some basic transition for smoother button movement */
+button {
+    transition: transform 0.3s ease;
+}
